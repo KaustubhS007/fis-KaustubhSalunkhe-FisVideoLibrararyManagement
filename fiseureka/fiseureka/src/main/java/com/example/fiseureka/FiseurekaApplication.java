@@ -1,0 +1,15 @@
+package com.example.fiseureka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class FiseurekaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FiseurekaApplication.class, args);
+	}
+
+}
